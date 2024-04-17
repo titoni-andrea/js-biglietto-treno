@@ -6,7 +6,7 @@ let ageUser = prompt("Quanti anni hai?")
 
 let costTicket = NumKm * costKm
 
-const senzaDato = "Devi inserire dei dati nel banner per avere il tuo prezzo del biglietto!"
+const senzaDato = "Devi inserire tutti i dati nel banner per avere il tuo prezzo del biglietto!"
 
 document.getElementById("titolo").innerHTML = `Il costo base del biglietto è: ${costTicket.toFixed(2)}€`
 

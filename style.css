@@ -6,12 +6,53 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(129, 184, 226);
+}
+
+.cont-flex {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+#main-titolo {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 50px;
+}
+
+.card-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 140, 111);
+    color: rgb(242, 224, 219);
+    border-radius: 25px;
+    padding: 30px 20px;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px 6px rgb(130, 129, 129);
+}
+
+.card-sconto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 177, 86);
+    color: rgb(242, 224, 219);
+    border-radius: 25px;
+    padding: 30px 20px;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px 6px rgb(124, 136, 128);
+}
+
+.titolo-card {
+    margin-bottom: 10px;
 }
 
 #titolo {
-    padding: 30px 0px 50px 35px;
 }
 
-#titoletto {
-   margin-left: 35px; 
+#titoletto {   
 }
